@@ -1,0 +1,181 @@
+﻿     body 
+{
+    font-family: 'Lucida Console',Arial,Verdana,Calibri,sans-serif;
+    background-color:Gray;
+    background-repeat:repeat;
+
+}
+
+#wrapper
+{
+    width:auto;
+    margin: 0 auto;
+    height: 960px;
+    padding: 10px;
+    background-repeat:no-repeat;
+    background-position:50% bottom;
+    background-image:url('../image/background.jpg');
+    
+}
+
+#banner
+{
+    text-align:justify;
+    font-family:'Lucida Console';
+    height: 200px;
+    width: auto;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: 0% 20%;
+    background-image:url('../image/banner.png');
+    margin-top: 0px;
+}
+
+#navigation
+{
+    height: 50px;
+    margin-top: 20px;
+    background-color:Black;
+}
+#nav
+{
+    margin:0px;
+
+}
+    #nav ul
+    {
+        padding:0px;
+        list-style:none;
+        height:50;
+        margin:5px;
+    }
+    
+    #nav li
+    {
+        font-size:20px;
+        float:left;
+        position:relative;
+        width:170px;
+        height:50px;
+        margin:0px;
+       border-radius:15px;
+    
+    }
+    
+    #nav ul li
+    {
+        
+        float:left;
+        height:38px;
+        line-height:35px;
+        text-align:center;
+        width:170px;
+        position:relative;
+        padding:0px;
+        margin:0px;
+        border-collapse:collapse;
+       border-radius:15px;
+       
+     
+}
+    
+    
+        #nav ul li a
+        
+        
+        
+        {
+            color:White;
+            text-decoration:none;
+            font-family:Calibri;
+            background-color:Black;
+            display:block;
+            margin:0px;
+            margin-left:28px;
+            margin-right:-20px;
+            border-radius:15px;
+            
+        }
+        
+            #nav ul li a:hover
+            {
+                background-color:Gray;
+            }
+            
+            #nav ul li ul
+            {
+                display:none;
+                padding:0px;
+                margin:0px;
+            }
+            
+            #nav ul li:hover >ul
+            {
+                clear:both;
+                display:block;
+                border-bottom-style:none;
+                
+            }
+            
+            #nav ul ul ul
+            {
+                margin-left:170px;
+                top:0px;
+                
+                position:absolute;
+            }
+          
+            #content_area
+             {
+               float: left;
+               width: 1450px;
+               height: auto;
+               margin: 20px 0 40px 0;
+               padding: 10px;
+               border-bottom-color:grey;
+               background-color: White; 
+            
+                       
+           }
+           
+           #footer
+           
+           {
+               
+               clear: both;
+               width: auto;
+               height: 17px;
+               text-align: center;
+               color:Black;
+               background-color:transparent;
+               text-transform:capitalize;
+               border-bottom-style:inset;
+               
+       
+            
+            .nee
+            {
+                padding:10px;
+                color:Black;
+                background-color:yellow;
+                border-radius:10px;
+                cursor:pointer;
+                display:block;
+                margin-left: 456px;
+}
+
+
+.ne
+{
+    border-radius:10px;
+    margin-left: 0px;
+}
+
+
+}
+
+.nl
+{
+    border-radius:10px;
+    margin-left: 0px;
+}

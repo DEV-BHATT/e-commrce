@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminDashborad.master.cs" Inherits="DreamDrive.AdminDashborad" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="Stylesheet" type="text/css" href="AdminDash.css"/>
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id ="wrapper"><a href="#"></a>
+     <div id ="banner"><a href="#"></a></div>
+     <div id="nav"><a href="#"></a>
+       <ul><li><a href="Home.aspx">Home</a></li>
+       <li><a href="#">Management</a>
+       <ul>
+        <li> <a href="UserManagement.aspx"> User Management</a></li>
+     <li> <a href="QueryManagement.aspx">Q Management</a></li>
+     <li> <a href="FeedbackManagement.aspx">F Management</a></li>
+    <li> <a href="ContactManagement.aspx">CUS Management</a></li>
+    <li> <a href="OrderManagement.aspx">OR Management</a></li>
+    <li> <a href="CartManagement.aspx">Cart Management</a></li>
+    <li> <a href="OADDManagement.aspx">Oadd Management</a></li>
+    <li> <a href="SUVManagement.aspx">SUV Management</a></li>
+    <li> <a href="LUXURYManagement.aspx">LUX Management</a></li>
+    <li> <a href="AccManagement.aspx">ACC Management</a></li>
+       </ul></li>
+       <li><a href="#">Store</a>
+       <ul>
+       <li><a href="productview.aspx">Luxury Car</a></li>
+       <li><a href="SuvView.aspx">SUV Car</a></li>
+       <li><a href="AddAcc.aspx">Accessories</a></li>
+       </ul>
+       </li>
+       </ul>
+       </div>
+       
+       <div id="content_area">
+          
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <p>
+                        <br />
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+           </asp:ContentPlaceHolder>
+           </div>
+        
+        <div id="sitebar">
+            
+        </div>
+     <div id="footer"></div>
+    </div>
+    
+     
+
+     
+      
+    
+    </form>
+</body>
+</html>
