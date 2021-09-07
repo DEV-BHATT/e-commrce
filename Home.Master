@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="DreamDrive.Home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title> Dream Drive</title>
+    <link rel="Stylesheet" type="text/css" href="style/Home.css" />
+    
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <center>
+    <div id="wrapper">
+    <div id="banner"></div>
+    <div id="nav">
+    <ul>
+    <li><a href="Home.aspx">Home</a></li>
+      <li><a href="#">Company</a></li>
+    <li><a href="#">Car Model</a>
+    <ul>
+    <li><a href="#">LUXURY</a>
+    <ul>
+        <li> <a href="#"> BMW</a></li>
+     <li> <a href="#">JAGURA</a></li>
+     <li> <a href="#">AUDI</a></li>
+     <li> <a href="#">ROLL ROYCE</a></li>
+     <li> <a href="#">MERCEDES</a></li>
+     <li> <a href="#">SKODA</a></li>
+     </ul>
+     </li>
+     </ul>
+    </li>
+    <li><a href="#">SUV</a>
+    <ul>
+    <li> <a href="#"> Tata Harrier</a></li>
+     <li> <a href="#">Fortuner</a></li>
+     <li> <a href="#">Creta</a></li>
+     <li> <a href="#">Scorpio</a></li>
+     <li> <a href="#">Innova Crysta</a></li>
+     <li> <a href="#">Nexon</a></li>
+
+    </ul>
+    </li>
+    <li><a href="#">Login</a>
+    <ul>
+    <li><a href="AdminLogin.aspx">Admin</a></li>
+    <li><a href="Registration.aspx">New User</a></li>
+    <li><a href="UserLogin.aspx">Register User</a></li>
+        </ul>
+        </li>
+     <li> <a href="#">Serviecs</a>
+
+     <ul>
+    <li> <a href="Query.aspx"> Query</a></li>
+     <li> <a href="#">Query Respose</a></li>
+ 
+
+    </ul>
+
+     </li>
+    <li> <a href="#">Contact Us</a></li>
+    <li> <a href="#">About Us</a></li>
+    </ul>
+    </div>
+   
+     <div id="content_area">
+         <center><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         </asp:ContentPlaceHolder></center>
+     </div>
+        <div id="sitebar">
+            
+        </div>
+     <div id="footer"></div>
+    </div>
+        </center>
+    </form>
+   
+</body>
+</html>

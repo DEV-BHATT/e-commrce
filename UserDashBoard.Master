@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserDashBoard.master.cs" Inherits="DreamDrive.UserDashBoard" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   <link rel="Stylesheet" type="text/css" href="style/UserDashBoradHome.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+    <div id="banner"></div>
+    <div id="nav">
+    <ul>
+    <li><a href="UserDashBoardHome.aspx" class="ne">Home</a></li>
+      <li><a href="#">Buy</a>
+      <ul>
+      <li><a href="UserView.aspx">BUY CAR</a></li>
+      <li><a href=""> BUY ACCESSORIES</a></li>
+      </ul>
+      </li>
+    <li><a href="#">Order Status</a>
+    <ul>
+    <li><a href="#">LUXURY</a>
+    <ul>
+        <li> <a href="#"> BMW</a></li>
+     <li> <a href="#">JAGURA</a></li>
+     <li> <a href="#">AUDI</a></li>
+     <li> <a href="#">ROLL ROYCE</a></li>
+     <li> <a href="#">MERCEDES</a></li>
+     <li> <a href="#">SKODA</a></li>
+     </ul>
+     </li>
+    
+    
+    
+    
+    
+    
+    </li>
+    <li><a href="#">SUV</a>
+    <ul>
+    <li> <a href="#"> Tata Harrier</a></li>
+     <li> <a href="#">Fortuner</a></li>
+     <li> <a href="#">Creta</a></li>
+     <li> <a href="#">Scorpio</a></li>
+     <li> <a href="#">Innova Crysta</a></li>
+     <li> <a href="#">Nexon</a></li>
+
+    </ul></li>
+    </ul></li>
+    <li><a href="#">Login</a>
+    <ul>
+    <li><a href="AdminLogin.aspx">Admin Login</a></li>
+    
+    <li><a href="#"> User Login</a>
+    <ul><li><a href="UserLogin.aspx">New User</a></li>
+    <li><a href="Registration.aspx">Register User</a></li></ul></li>
+    </li>
+        </ul>
+        </li>
+         <li> <a href="Updateprofile.aspx">Update Profile</a></li>
+    <li> <a href="Feedback.aspx">Feedback</a></li>
+    <li> <a href="#">Logout</a></li>
+   
+    </ul>
+    </div>
+   
+     <div id="content_area">
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         </asp:ContentPlaceHolder>
+     </div>
+        <div id="sitebar">
+            
+        </div>
+     <div id="footer"></div>
+   
+        </div>
+    
+    </center>
+
+   
+    </form>
+</body>
+</html>
